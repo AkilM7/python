@@ -1,14 +1,5 @@
-name = 'Rajnikanth'
+# creating a list
+fruit = ["banana","cherry","grape"]
+fruit.insert(1,"apple")
+print(fruit)
 
-#string is immutable
-l = []
-for i in range(len(name)):
-    if i == 3:
-        l.append('i')
-        l.append(name[i])
-    else:
-        l.append(name[i])
-else:
-    print(l)
-name=''.join(l)
-print(name)
