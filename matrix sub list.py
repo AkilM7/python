@@ -7,8 +7,7 @@ A = [
 B = [
     [9, 8, 7],
     [6, 5, 4],
-    [3, 2, 1],
-   
+    [3, 2, 1]
 ]
 
 
@@ -22,7 +21,7 @@ result = [
 for i in range(len(A)):
   
     for j in range(len(B)):
-        result[i][j]= A[i][j]+ B[i][j]
+        result[i][j]= A[i][j] - B[i][j]
 
 for r in result:
     print(r)
